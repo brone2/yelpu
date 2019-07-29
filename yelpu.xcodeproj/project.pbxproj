@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B48231A9BEBC9C1294977EA /* Pods_yelpuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62DF1032D2002D80C4C92A65 /* Pods_yelpuUITests.framework */; };
+		B86D387169B8FE24F5C62F65 /* Pods_yelpuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FB03BE56729FB6C986DE7D /* Pods_yelpuTests.framework */; };
+		DE41FD212296E501005C4B0B /* idkAut.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE41FD202296E501005C4B0B /* idkAut.swift */; };
+		DE41FD232296F268005C4B0B /* searchByPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE41FD222296F268005C4B0B /* searchByPhone.swift */; };
+		DE41FD252296F2B0005C4B0B /* searchByDistancePrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE41FD242296F2B0005C4B0B /* searchByDistancePrice.swift */; };
+		DE41FD2A2296F909005C4B0B /* convertJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE41FD292296F909005C4B0B /* convertJson.swift */; };
+		DE41FD2C2296FA5A005C4B0B /* objectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE41FD2B2296FA5A005C4B0B /* objectMapper.swift */; };
+		DE41FD2E229728D4005C4B0B /* phoneNumberArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE41FD2D229728D4005C4B0B /* phoneNumberArray.swift */; };
+		DE41FD32229740BB005C4B0B /* restInRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE41FD31229740BB005C4B0B /* restInRadius.swift */; };
+		DE41FD3422977FA4005C4B0B /* testLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE41FD3322977FA4005C4B0B /* testLoop.swift */; };
+		DE41FD38229854B4005C4B0B /* lookupSurroundingRatinggs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE41FD37229854B4005C4B0B /* lookupSurroundingRatinggs.swift */; };
+		DE41FD3A229863FF005C4B0B /* calculateSurroundingRrRatings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE41FD39229863FF005C4B0B /* calculateSurroundingRrRatings.swift */; };
+		DE41FD3C2299AA4E005C4B0B /* formattingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE41FD3B2299AA4E005C4B0B /* formattingData.swift */; };
+		DE41FD43229EB4E3005C4B0B /* yelpDataPull.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE41FD42229EB4E3005C4B0B /* yelpDataPull.swift */; };
+		DE41FD4722A55F85005C4B0B /* formatPhoneNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE41FD4622A55F85005C4B0B /* formatPhoneNumbers.swift */; };
+		DE95B54F22962878003B2FFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95B54E22962878003B2FFF /* AppDelegate.swift */; };
+		DE95B55122962878003B2FFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95B55022962878003B2FFF /* ViewController.swift */; };
+		DE95B55422962878003B2FFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE95B55222962878003B2FFF /* Main.storyboard */; };
+		DE95B55622962879003B2FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE95B55522962879003B2FFF /* Assets.xcassets */; };
+		DE95B55922962879003B2FFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE95B55722962879003B2FFF /* LaunchScreen.storyboard */; };
+		DE95B56422962879003B2FFF /* yelpuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95B56322962879003B2FFF /* yelpuTests.swift */; };
+		DE95B56F22962879003B2FFF /* yelpuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95B56E22962879003B2FFF /* yelpuUITests.swift */; };
+		F3C76F99A7AECE3AB42CCA0A /* Pods_yelpu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FBBAD64C3AEEB7673D58F6 /* Pods_yelpu.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE95B56022962879003B2FFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE95B54322962878003B2FFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE95B54A22962878003B2FFF;
+			remoteInfo = yelpu;
+		};
+		DE95B56B22962879003B2FFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE95B54322962878003B2FFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE95B54A22962878003B2FFF;
+			remoteInfo = yelpu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07FB03BE56729FB6C986DE7D /* Pods_yelpuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yelpuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		112C3326B928DAEDBD759577 /* Pods-yelpuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yelpuUITests.release.xcconfig"; path = "Target Support Files/Pods-yelpuUITests/Pods-yelpuUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3EAB4E0A7047D1D57FED1579 /* Pods-yelpuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yelpuTests.debug.xcconfig"; path = "Target Support Files/Pods-yelpuTests/Pods-yelpuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		62DF1032D2002D80C4C92A65 /* Pods_yelpuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yelpuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F6D542FE9C69AE961CDE64 /* Pods-yelpu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yelpu.debug.xcconfig"; path = "Target Support Files/Pods-yelpu/Pods-yelpu.debug.xcconfig"; sourceTree = "<group>"; };
+		782FA7F841D65965890FB666 /* Pods-yelpuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yelpuUITests.debug.xcconfig"; path = "Target Support Files/Pods-yelpuUITests/Pods-yelpuUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		956BACB85370556DB4D2C848 /* Pods-yelpu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yelpu.release.xcconfig"; path = "Target Support Files/Pods-yelpu/Pods-yelpu.release.xcconfig"; sourceTree = "<group>"; };
+		C1FBBAD64C3AEEB7673D58F6 /* Pods_yelpu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yelpu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB074ADC3096677C12996D6A /* Pods-yelpuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yelpuTests.release.xcconfig"; path = "Target Support Files/Pods-yelpuTests/Pods-yelpuTests.release.xcconfig"; sourceTree = "<group>"; };
+		DE41FD202296E501005C4B0B /* idkAut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = idkAut.swift; sourceTree = "<group>"; };
+		DE41FD222296F268005C4B0B /* searchByPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchByPhone.swift; sourceTree = "<group>"; };
+		DE41FD242296F2B0005C4B0B /* searchByDistancePrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchByDistancePrice.swift; sourceTree = "<group>"; };
+		DE41FD292296F909005C4B0B /* convertJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = convertJson.swift; sourceTree = "<group>"; };
+		DE41FD2B2296FA5A005C4B0B /* objectMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = objectMapper.swift; sourceTree = "<group>"; };
+		DE41FD2D229728D4005C4B0B /* phoneNumberArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phoneNumberArray.swift; sourceTree = "<group>"; };
+		DE41FD31229740BB005C4B0B /* restInRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restInRadius.swift; sourceTree = "<group>"; };
+		DE41FD3322977FA4005C4B0B /* testLoop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testLoop.swift; sourceTree = "<group>"; };
+		DE41FD37229854B4005C4B0B /* lookupSurroundingRatinggs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lookupSurroundingRatinggs.swift; sourceTree = "<group>"; };
+		DE41FD39229863FF005C4B0B /* calculateSurroundingRrRatings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculateSurroundingRrRatings.swift; sourceTree = "<group>"; };
+		DE41FD3B2299AA4E005C4B0B /* formattingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formattingData.swift; sourceTree = "<group>"; };
+		DE41FD42229EB4E3005C4B0B /* yelpDataPull.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yelpDataPull.swift; sourceTree = "<group>"; };
+		DE41FD4622A55F85005C4B0B /* formatPhoneNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formatPhoneNumbers.swift; sourceTree = "<group>"; };
+		DE95B54B22962878003B2FFF /* yelpu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yelpu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE95B54E22962878003B2FFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE95B55022962878003B2FFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE95B55322962878003B2FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE95B55522962879003B2FFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE95B55822962879003B2FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE95B55A22962879003B2FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE95B55F22962879003B2FFF /* yelpuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yelpuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE95B56322962879003B2FFF /* yelpuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yelpuTests.swift; sourceTree = "<group>"; };
+		DE95B56522962879003B2FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE95B56A22962879003B2FFF /* yelpuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yelpuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE95B56E22962879003B2FFF /* yelpuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yelpuUITests.swift; sourceTree = "<group>"; };
+		DE95B57022962879003B2FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE95B54822962878003B2FFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C76F99A7AECE3AB42CCA0A /* Pods_yelpu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE95B55C22962879003B2FFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86D387169B8FE24F5C62F65 /* Pods_yelpuTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE95B56722962879003B2FFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B48231A9BEBC9C1294977EA /* Pods_yelpuUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		338284D69E284EF6884D27D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1FBBAD64C3AEEB7673D58F6 /* Pods_yelpu.framework */,
+				07FB03BE56729FB6C986DE7D /* Pods_yelpuTests.framework */,
+				62DF1032D2002D80C4C92A65 /* Pods_yelpuUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D54BEC9A0739BC7DB998939 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71F6D542FE9C69AE961CDE64 /* Pods-yelpu.debug.xcconfig */,
+				956BACB85370556DB4D2C848 /* Pods-yelpu.release.xcconfig */,
+				3EAB4E0A7047D1D57FED1579 /* Pods-yelpuTests.debug.xcconfig */,
+				CB074ADC3096677C12996D6A /* Pods-yelpuTests.release.xcconfig */,
+				782FA7F841D65965890FB666 /* Pods-yelpuUITests.debug.xcconfig */,
+				112C3326B928DAEDBD759577 /* Pods-yelpuUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DE41FD262296F8E0005C4B0B /* Converting Data */ = {
+			isa = PBXGroup;
+			children = (
+				DE41FD292296F909005C4B0B /* convertJson.swift */,
+				DE41FD2B2296FA5A005C4B0B /* objectMapper.swift */,
+			);
+			path = "Converting Data";
+			sourceTree = "<group>";
+		};
+		DE41FD2F2297406F005C4B0B /* SimplePull */ = {
+			isa = PBXGroup;
+			children = (
+				DE41FD2D229728D4005C4B0B /* phoneNumberArray.swift */,
+				DE41FD222296F268005C4B0B /* searchByPhone.swift */,
+				DE41FD242296F2B0005C4B0B /* searchByDistancePrice.swift */,
+			);
+			path = SimplePull;
+			sourceTree = "<group>";
+		};
+		DE41FD3022974087005C4B0B /* Setupu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setupu;
+			sourceTree = "<group>";
+		};
+		DE41FD3522977FAD005C4B0B /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				DE41FD3322977FA4005C4B0B /* testLoop.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		DE41FD362298549E005C4B0B /* multiFunctionQueries */ = {
+			isa = PBXGroup;
+			children = (
+				DE41FD37229854B4005C4B0B /* lookupSurroundingRatinggs.swift */,
+				DE41FD39229863FF005C4B0B /* calculateSurroundingRrRatings.swift */,
+				DE41FD3B2299AA4E005C4B0B /* formattingData.swift */,
+			);
+			path = multiFunctionQueries;
+			sourceTree = "<group>";
+		};
+		DE41FD3F229EB4C1005C4B0B /* v2 */ = {
+			isa = PBXGroup;
+			children = (
+				DE41FD42229EB4E3005C4B0B /* yelpDataPull.swift */,
+				DE41FD4622A55F85005C4B0B /* formatPhoneNumbers.swift */,
+			);
+			path = v2;
+			sourceTree = "<group>";
+		};
+		DE95B54222962878003B2FFF = {
+			isa = PBXGroup;
+			children = (
+				DE41FD3F229EB4C1005C4B0B /* v2 */,
+				DE41FD362298549E005C4B0B /* multiFunctionQueries */,
+				DE41FD3522977FAD005C4B0B /* Test */,
+				DE95B54D22962878003B2FFF /* yelpu */,
+				DE95B56222962879003B2FFF /* yelpuTests */,
+				DE95B56D22962879003B2FFF /* yelpuUITests */,
+				DE95B54C22962878003B2FFF /* Products */,
+				5D54BEC9A0739BC7DB998939 /* Pods */,
+				338284D69E284EF6884D27D2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DE95B54C22962878003B2FFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE95B54B22962878003B2FFF /* yelpu.app */,
+				DE95B55F22962879003B2FFF /* yelpuTests.xctest */,
+				DE95B56A22962879003B2FFF /* yelpuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE95B54D22962878003B2FFF /* yelpu */ = {
+			isa = PBXGroup;
+			children = (
+				DE95B54E22962878003B2FFF /* AppDelegate.swift */,
+				DE41FD202296E501005C4B0B /* idkAut.swift */,
+				DE41FD3022974087005C4B0B /* Setupu */,
+				DE41FD2F2297406F005C4B0B /* SimplePull */,
+				DE95B55022962878003B2FFF /* ViewController.swift */,
+				DE41FD31229740BB005C4B0B /* restInRadius.swift */,
+				DE95B55222962878003B2FFF /* Main.storyboard */,
+				DE95B55522962879003B2FFF /* Assets.xcassets */,
+				DE95B55722962879003B2FFF /* LaunchScreen.storyboard */,
+				DE95B55A22962879003B2FFF /* Info.plist */,
+				DE41FD262296F8E0005C4B0B /* Converting Data */,
+			);
+			path = yelpu;
+			sourceTree = "<group>";
+		};
+		DE95B56222962879003B2FFF /* yelpuTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE95B56322962879003B2FFF /* yelpuTests.swift */,
+				DE95B56522962879003B2FFF /* Info.plist */,
+			);
+			path = yelpuTests;
+			sourceTree = "<group>";
+		};
+		DE95B56D22962879003B2FFF /* yelpuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE95B56E22962879003B2FFF /* yelpuUITests.swift */,
+				DE95B57022962879003B2FFF /* Info.plist */,
+			);
+			path = yelpuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE95B54A22962878003B2FFF /* yelpu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE95B57322962879003B2FFF /* Build configuration list for PBXNativeTarget "yelpu" */;
+			buildPhases = (
+				6142FD29F878CB6B402A38F8 /* [CP] Check Pods Manifest.lock */,
+				DE95B54722962878003B2FFF /* Sources */,
+				DE95B54822962878003B2FFF /* Frameworks */,
+				DE95B54922962878003B2FFF /* Resources */,
+				CFFE102E2B24DA73F9478A7A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yelpu;
+			productName = yelpu;
+			productReference = DE95B54B22962878003B2FFF /* yelpu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE95B55E22962879003B2FFF /* yelpuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE95B57622962879003B2FFF /* Build configuration list for PBXNativeTarget "yelpuTests" */;
+			buildPhases = (
+				2CE269113616D0B35A20D558 /* [CP] Check Pods Manifest.lock */,
+				DE95B55B22962879003B2FFF /* Sources */,
+				DE95B55C22962879003B2FFF /* Frameworks */,
+				DE95B55D22962879003B2FFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE95B56122962879003B2FFF /* PBXTargetDependency */,
+			);
+			name = yelpuTests;
+			productName = yelpuTests;
+			productReference = DE95B55F22962879003B2FFF /* yelpuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE95B56922962879003B2FFF /* yelpuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE95B57922962879003B2FFF /* Build configuration list for PBXNativeTarget "yelpuUITests" */;
+			buildPhases = (
+				1831C2E2825112C0BF95C73C /* [CP] Check Pods Manifest.lock */,
+				DE95B56622962879003B2FFF /* Sources */,
+				DE95B56722962879003B2FFF /* Frameworks */,
+				DE95B56822962879003B2FFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE95B56C22962879003B2FFF /* PBXTargetDependency */,
+			);
+			name = yelpuUITests;
+			productName = yelpuUITests;
+			productReference = DE95B56A22962879003B2FFF /* yelpuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE95B54322962878003B2FFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Neil Bronfin";
+				TargetAttributes = {
+					DE95B54A22962878003B2FFF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					DE95B55E22962879003B2FFF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = DE95B54A22962878003B2FFF;
+					};
+					DE95B56922962879003B2FFF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = DE95B54A22962878003B2FFF;
+					};
+				};
+			};
+			buildConfigurationList = DE95B54622962878003B2FFF /* Build configuration list for PBXProject "yelpu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE95B54222962878003B2FFF;
+			productRefGroup = DE95B54C22962878003B2FFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE95B54A22962878003B2FFF /* yelpu */,
+				DE95B55E22962879003B2FFF /* yelpuTests */,
+				DE95B56922962879003B2FFF /* yelpuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE95B54922962878003B2FFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE95B55922962879003B2FFF /* LaunchScreen.storyboard in Resources */,
+				DE95B55622962879003B2FFF /* Assets.xcassets in Resources */,
+				DE95B55422962878003B2FFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE95B55D22962879003B2FFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE95B56822962879003B2FFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1831C2E2825112C0BF95C73C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yelpuUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CE269113616D0B35A20D558 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yelpuTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6142FD29F878CB6B402A38F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yelpu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFFE102E2B24DA73F9478A7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yelpu/Pods-yelpu-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yelpu/Pods-yelpu-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-yelpu/Pods-yelpu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE95B54722962878003B2FFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE41FD3C2299AA4E005C4B0B /* formattingData.swift in Sources */,
+				DE41FD252296F2B0005C4B0B /* searchByDistancePrice.swift in Sources */,
+				DE41FD43229EB4E3005C4B0B /* yelpDataPull.swift in Sources */,
+				DE41FD212296E501005C4B0B /* idkAut.swift in Sources */,
+				DE41FD38229854B4005C4B0B /* lookupSurroundingRatinggs.swift in Sources */,
+				DE41FD232296F268005C4B0B /* searchByPhone.swift in Sources */,
+				DE41FD3A229863FF005C4B0B /* calculateSurroundingRrRatings.swift in Sources */,
+				DE41FD2E229728D4005C4B0B /* phoneNumberArray.swift in Sources */,
+				DE41FD2A2296F909005C4B0B /* convertJson.swift in Sources */,
+				DE95B55122962878003B2FFF /* ViewController.swift in Sources */,
+				DE41FD32229740BB005C4B0B /* restInRadius.swift in Sources */,
+				DE41FD4722A55F85005C4B0B /* formatPhoneNumbers.swift in Sources */,
+				DE41FD2C2296FA5A005C4B0B /* objectMapper.swift in Sources */,
+				DE95B54F22962878003B2FFF /* AppDelegate.swift in Sources */,
+				DE41FD3422977FA4005C4B0B /* testLoop.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE95B55B22962879003B2FFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE95B56422962879003B2FFF /* yelpuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE95B56622962879003B2FFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE95B56F22962879003B2FFF /* yelpuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE95B56122962879003B2FFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE95B54A22962878003B2FFF /* yelpu */;
+			targetProxy = DE95B56022962879003B2FFF /* PBXContainerItemProxy */;
+		};
+		DE95B56C22962879003B2FFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE95B54A22962878003B2FFF /* yelpu */;
+			targetProxy = DE95B56B22962879003B2FFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE95B55222962878003B2FFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE95B55322962878003B2FFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE95B55722962879003B2FFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE95B55822962879003B2FFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE95B57122962879003B2FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE95B57222962879003B2FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE95B57422962879003B2FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71F6D542FE9C69AE961CDE64 /* Pods-yelpu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7XR7R62R49;
+				INFOPLIST_FILE = yelpu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = idk.yelpu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE95B57522962879003B2FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 956BACB85370556DB4D2C848 /* Pods-yelpu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7XR7R62R49;
+				INFOPLIST_FILE = yelpu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = idk.yelpu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE95B57722962879003B2FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EAB4E0A7047D1D57FED1579 /* Pods-yelpuTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = yelpuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = idk.yelpuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yelpu.app/yelpu";
+			};
+			name = Debug;
+		};
+		DE95B57822962879003B2FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB074ADC3096677C12996D6A /* Pods-yelpuTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = yelpuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = idk.yelpuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yelpu.app/yelpu";
+			};
+			name = Release;
+		};
+		DE95B57A22962879003B2FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 782FA7F841D65965890FB666 /* Pods-yelpuUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = yelpuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = idk.yelpuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = yelpu;
+			};
+			name = Debug;
+		};
+		DE95B57B22962879003B2FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 112C3326B928DAEDBD759577 /* Pods-yelpuUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = yelpuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = idk.yelpuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = yelpu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE95B54622962878003B2FFF /* Build configuration list for PBXProject "yelpu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE95B57122962879003B2FFF /* Debug */,
+				DE95B57222962879003B2FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE95B57322962879003B2FFF /* Build configuration list for PBXNativeTarget "yelpu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE95B57422962879003B2FFF /* Debug */,
+				DE95B57522962879003B2FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE95B57622962879003B2FFF /* Build configuration list for PBXNativeTarget "yelpuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE95B57722962879003B2FFF /* Debug */,
+				DE95B57822962879003B2FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE95B57922962879003B2FFF /* Build configuration list for PBXNativeTarget "yelpuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE95B57A22962879003B2FFF /* Debug */,
+				DE95B57B22962879003B2FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE95B54322962878003B2FFF /* Project object */;
+}
